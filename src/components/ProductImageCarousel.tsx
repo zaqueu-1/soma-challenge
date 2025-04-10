@@ -44,7 +44,7 @@ export function ProductImageCarousel({ images, productName }: ProductImageCarous
         </motion.div>
       </AnimatePresence>
 
-      <span className="absolute top-4 left-4 bg-white px-3 py-1 text-[10px] tracking-wider">
+      <span className="absolute top-1 left-1 sm:top-4 sm:left-4 text-[8px] bg-white px-2 py-1 sm:text-[10px] tracking-wider">
         NEW IN
       </span>
 

@@ -35,8 +35,8 @@ export function SortFilter({ sortType, onSortChange }: SortFilterProps) {
 
   return (
     <div className="relative" ref={sortRef}>
-      <div onClick={() => setShowOptions(!showOptions)} className="cursor-pointer flex items-center gap-2 hover:underline">
-        <span className="text-xs">ORDENAR POR</span>
+      <div onClick={() => setShowOptions(!showOptions)} className="cursor-pointer flex items-center justify-center gap-2 hover:underline">
+        <span className="text-xs">Ordenar</span>
         <button className="cursor-pointer">
           <Icons 
             name={showOptions ? 'chevron-up' : 'chevron-down'}

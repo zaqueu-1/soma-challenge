@@ -97,7 +97,7 @@ export function Filters({
     if (hasCategories) {
       return `${selectedCategories.length} CATEGORIAS`;
     }
-    return 'FILTRAR POR';
+    return 'Filtrar';
   };
 
   return (
@@ -106,7 +106,7 @@ export function Filters({
         onClick={() => setShowFilter(!showFilter)} 
         className="cursor-pointer flex items-center gap-2 hover:underline"
       >
-        <span className="text-xs flex items-center gap-2">
+        <span className="text-xs flex items-center justify-center gap-2">
           {getFilterLabel()}
           {((selectedSize && selectedSize.length > 0) || selectedCategories.length > 0) && (
             <span className="bg-black text-white text-[10px] px-1.5 py-0.5 rounded-full">

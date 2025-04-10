@@ -138,7 +138,7 @@ export default function ProductList() {
           <span>•</span>
           <Link href="/novidades" className="hover:underline">Novidades</Link>
         </div>
-        <div className="flex items-center gap-6">
+        <div className="flex flex-col md:flex-row items-center gap-4">
           <Filters 
             selectedSize={selectedSize}
             onSizeChange={handleSizeFilter}
