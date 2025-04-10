@@ -1,0 +1,60 @@
+[
+  {
+    "label": "NOVIDADES",
+    "href": "/novidades"
+  },
+  {
+    "label": "COLEÇÃO",
+    "href": "/colecao",
+    "categories": [
+      {
+        "title": "CATEGORIAS",
+        "items": [
+          { "label": "VESTIDO", "href": "/vestido" },
+          { "label": "TOP/BLUSA", "href": "/top-blusa" },
+          { "label": "CALÇA", "href": "/calca" },
+          { "label": "CAMISA", "href": "/camisa" },
+          { "label": "JAQUETA", "href": "/jaqueta" },
+          { "label": "MACACÃO", "href": "/macacao" }
+        ]
+      },
+      {
+        "title": "MATERIAIS",
+        "items": [
+          { "label": "COURO", "href": "/couro" },
+          { "label": "SEDA", "href": "/seda" },
+          { "label": "TRICOT", "href": "/tricot" },
+          { "label": "ALFAIATARIA", "href": "/alfaiataria" },
+          { "label": "JEANS", "href": "/jeans" },
+          { "label": "MALHA", "href": "/malha" }
+        ]
+      },
+      {
+        "title": "ACESSÓRIOS",
+        "items": [
+          { "label": "BOLSAS", "href": "/bolsas" },
+          { "label": "CALÇADOS", "href": "/calcados" },
+          { "label": "CINTO", "href": "/cinto" },
+          { "label": "COLAR", "href": "/colar" },
+          { "label": "ANEL", "href": "/anel" },
+          { "label": "BRINCO", "href": "/brinco" }
+        ]
+      },
+      {
+        "title": "INTIMATES",
+        "items": [
+          { "label": "LINGERIE", "href": "/lingerie" },
+          { "label": "LOUNGEWEAR", "href": "/loungewear" }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "JOIAS",
+    "href": "/joias"
+  },
+  {
+    "label": "SALE",
+    "href": "/sale"
+  }
+] 
